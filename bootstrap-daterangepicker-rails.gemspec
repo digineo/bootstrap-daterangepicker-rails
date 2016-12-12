@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'railties', '>= 4.0', '< 5.1'
   s.add_dependency 'sass-rails'
-  s.add_development_dependency 'test-unit',    '~> 2.2'
+  #s.add_development_dependency 'test-unit',    '~> 2.2'
 
   s.files         = Dir['{lib,vendor}/**/*'] + %w{LICENSE README.md Rakefile}
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
